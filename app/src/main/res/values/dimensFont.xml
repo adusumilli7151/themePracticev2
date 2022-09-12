@@ -2,7 +2,5 @@
 <resources>
     <dimen name = "welcomeFontSize">22.5sp</dimen>
     <dimen name = "loginFontSize">20sp</dimen>
-
-
-
+    <dimen name = "textSize">15sp</dimen>
 </resources>

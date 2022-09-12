@@ -12,6 +12,7 @@
     <dimen name="topMargin">45dp</dimen>
     <dimen name="screenMargin">20dp</dimen>
     <dimen name="topPadding">5dp</dimen>
+    <dimen name="leftPadding">10dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
 
 </resources>

@@ -12,9 +12,10 @@
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
         android:layout_marginTop="@dimen/topMargin"
+        android:textColor="@color/primaryDarkColor"
         android:text="Please log in."
         android:gravity="center"
-        android:textSize="@dimen/textViewFontSize"
+        android:textSize="@dimen/welcomeFontSize"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +28,10 @@
         android:textSize="@dimen/loginFontSize"
         android:layout_marginStart="@dimen/screenMargin"
         android:layout_marginBottom="@dimen/bottomMargin"
-        android:text="Email: "
+        android:text="Email "
+        android:textColor="@color/primaryColor"
+        android:paddingTop="@dimen/topPadding"
+        android:paddingLeft="@dimen/leftPadding"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -40,16 +44,23 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="example@gmail.com"
+        android:textColor="@color/primaryLightColor"
+        android:paddingStart="@dimen/editTextPadding"
+        android:textSize="@dimen/textSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/textViewWidth"
+        android:layout_height="@dimen/textViewHeight"
         android:layout_marginStart="@dimen/screenMargin"
         android:layout_marginBottom="@dimen/bottomMargin"
-        android:text="TextView"
+        android:text="Password"
+        android:textColor="@color/primaryColor"
+        android:paddingTop="@dimen/topPadding"
+        android:paddingLeft="@dimen/leftPadding"
+        android:textSize="@dimen/loginFontSize"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -57,11 +68,14 @@
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="@dimen/editTextHeight"
-        android:layout_marginStart="@dimen/screenMargin"
+        android:layout_marginStart="20dp"
         android:layout_marginBottom="284dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Password: "
+        android:paddingStart="@dimen/editTextPadding"
+        android:text="123456 "
+        android:textColor="@color/primaryLightColor"
+        android:textSize="@dimen/textSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -69,11 +83,13 @@
         android:id="@+id/button"
         android:layout_width="@dimen/buttonOneWidth"
         android:layout_height="@dimen/buttonOneHeight"
-        android:text="Button"
+        android:backgroundTint="@color/buttonOneColor"
+        android:text="Submit"
+        android:textColor="@color/primaryTextColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintHorizontal_bias="0.848"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.664" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintVertical_bias="0.16" />
 </androidx.constraintlayout.widget.ConstraintLayout>
