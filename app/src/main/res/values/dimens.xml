@@ -2,8 +2,6 @@
 <resources>
     <dimen name="buttonOneWidth">140dp</dimen>
     <dimen name="buttonOneHeight">60dp</dimen>
-    <dimen name="buttonTwoWidth">140dp</dimen>
-    <dimen name="buttonWidth">60dp</dimen>
     <dimen name="editTextWidth">350dp</dimen>
     <dimen name="editTextHeight">60dp</dimen>
     <dimen name="textViewWidth">250dp</dimen>
