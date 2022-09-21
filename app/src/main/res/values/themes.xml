@@ -10,7 +10,6 @@
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
         <item name="colorOnSecondary">@color/secondaryDarkColor</item>
-        <item name="backgroundColor">@color/backgroundColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <dimen name="welcomeTextSize">22s.5sp</dimen>
