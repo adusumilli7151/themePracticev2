@@ -12,9 +12,7 @@
         <item name="colorOnSecondary">@color/secondaryDarkColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <dimen name="welcomeTextSize">22s.5sp</dimen>
-        <dimen name = "loginFontSize">20sp</dimen>
-        <dimen name = "textSize">15sp</dimen>
+
         <!-- Customize your theme here. -->
     </style>
 </resources>
